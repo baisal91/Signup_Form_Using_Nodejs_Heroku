@@ -36,11 +36,11 @@ app.post("/", function(req, res){
     };
 
     let jsonData = JSON.stringify(data);
-    const url = "https://us2.api.mailchimp.com/3.0/lists/8184f6f49c";
+    const url = "https://us2.api.mailchimp.com/3.0/lists/8184f6f4c";
 
     const options ={
         method: "POST",
-        auth: "baisal:5b2b25d16f02d22ecd70c2fb1e0789d4-us2"
+        auth: "baisal:5b2b25d16f02d22ecd70c2fb1e0789d-us2"
     };
 
     
@@ -78,7 +78,3 @@ app.listen(process.env.PORT || 3000, function() {  //process.env.PORT is a dynam
 });
 
 
-//Api key 
-//5b2b25d16f02d22ecd70c2fb1e0789d4-us2
-//List id
-//8184f6f49c
